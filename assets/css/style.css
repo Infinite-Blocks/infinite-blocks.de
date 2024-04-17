@@ -290,7 +290,8 @@ textarea {
 .section-header > span {
   display: block;
   font-weight: 500;
-  color: #fd4372;
+  /* color: #fd4372; */
+  color: black;
   font-size: 16px;
   text-transform: uppercase;
   margin-bottom: 15px;
@@ -2389,7 +2390,7 @@ ul.icon-style-list > li ul li a.behance i {
 }
 .header-section .primary-menu .main-area .main-menu ul li ul li a:hover {
   padding-left: 20px;
-  color: #fd4372;
+  color: #ffb400;
   background: #fff;
 }
 .header-section .primary-menu .main-area .main-menu ul li ul li.active > a {
@@ -2443,7 +2444,7 @@ ul.icon-style-list > li ul li a.behance i {
   color: #705346;
 }
 .transparent-header .primary-menu .main-area .main-menu ul li ul {
-  background: linear-gradient(to right, #ffab8b, #fd4372);
+  background: linear-gradient(to right, #D5813C, #ffb400);
 }
 
 .seo-bg .header-area.menu-fixed {
@@ -3443,6 +3444,7 @@ ul.icon-style-list > li ul li a.behance i {
 .banner-section .banner-area .content-part .section-header .button-group {
   align-items: center;
   margin-top: 40px;
+  margin-bottom: 40px;
 }
 .banner-section .banner-area .content-part .section-header .button-group .lab-btn {
   margin-bottom: 30px;
@@ -9395,8 +9397,8 @@ ul.icon-style-list > li ul li a.behance i {
   }
 }
 .shop-cart .section-wrapper .cart-bottom .cart-checkout-box .cart-checkout input[type=submit]:hover {
-  color: #fd4372;
-  border-color: #fd4372;
+  color: #000;
+  border-color: #000;
 }
 .shop-cart .section-wrapper .cart-bottom .shiping-box {
   padding: 30px 20px;
