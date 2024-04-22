@@ -3745,7 +3745,7 @@
             z-index: 1;
             @extend %rel;
             @include border-radius(2px);
-            background: url(../../assets/images/erp/manager/author/bg.jpg) no-repeat;
+            background: url(../../assets/images/erp/manager/author/bg.webp) no-repeat;
             background-size: cover;
             @include breakpoint(sm) {
                 padding: 60px;
@@ -5869,7 +5869,7 @@
 
 /*@@@@@@@@@@@@@@   Fore Zero Page Start Here  @@@@@@@@@@@@@@@@@*/
 .fore-zero-page {
-    background: url(../../assets/css/bg-image/404-bg.jpg);
+    background: url(../../assets/css/bg-image/404-bg.webp);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;

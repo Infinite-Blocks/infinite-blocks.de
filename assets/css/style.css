@@ -92,8 +92,7 @@
 }
 
 body {
-  font-family: 'Segoe UI', sans-serif;
-  /* font-family: 'PressStart2', sans-serif; */
+
   margin: 0;
   padding: 0;
   background: #fff;
@@ -114,17 +113,25 @@ select,
 optgroup,
 textarea {
   color: #696969;
-  font-family: 'PressStart2', sans-serif;
-  font-family: 'Segoe UI', sans-serif;
+  /* font-family: 'PressStart2', sans-serif; */
+  /* font-family: 'Segoe UI', sans-serif; */
   font-size: 16px;
   line-height: 1.5;
 }
-
-h1, h2, h3, h4, h5, h6, h1 a, h2 a, h3 a, h4 a, h5 a, h6 a, a h1, a h2, a h3, a h4, a h5, a h6 {
+  h4, h5,h6, h4 a, a h5, a h6 {
   clear: both;
   font-weight: 700;
   line-height: 1.4;
   font-family: 'Segoe UI', sans-serif;
+  color: #000000;
+}
+
+
+h1, h2, h3,  h1 a, h2 a, h3 a, a h1, a h2, a h3,.page-header .pageheader-textarea h2 {
+  clear: both;
+  /* font-weight: 700; */
+  line-height: 1.4;
+  font-family: 'PressStart2', sans-serif;
   color: #000000;
 }
 
@@ -2459,6 +2466,7 @@ ul.icon-style-list > li ul li a.behance i {
 }
 
 .transparent-header {
+ 
   width: 100%;
   top: 20px;
   z-index: 999;
@@ -2476,10 +2484,14 @@ ul.icon-style-list > li ul li a.behance i {
 .transparent-header .primary-menu .main-area .main-menu ul li ul {
   background: linear-gradient(to right, #ffab8b, #fd4372);
 }
+.header-area{
+  background: #f9e4e8;
+}
 
 .seo-bg .header-area.menu-fixed {
+  box-shadow: 0 0px 15px #f9769d;
   /* background-image: linear-gradient(to right, #1a00ff, #2010d8, #2416b2, #25188d, #231769); */
-  background: #E0D5D0;
+  background:#f9e4e8;
 }
 .seo-bg .primary-menu .main-area .main-menu ul li.active a {
   color: #e49e66;
@@ -2917,6 +2929,7 @@ ul.icon-style-list > li ul li a.behance i {
   z-index: 1;
 }
 .line.line-1 img{
+  opacity: 0.7;
   width: 100vw;
 }
 
@@ -2981,14 +2994,16 @@ ul.icon-style-list > li ul li a.behance i {
   -webkit-mask-size: 100%;
   -webkit-mask-repeat: no-repeat;
   -webkit-mask-position: bottom center;
-  -webkit-mask-image: url(../../assets/images/pageheader/contact.jpg);
+  -webkit-mask-image: url(../../assets/images/pageheader/contact.webp);
 }
 .page-header .pageheader-textarea {
   z-index: 1;
 }
 .page-header .pageheader-textarea h2 {
-  /* font-size: 110px; */
-color: white;
+
+    font-size: 2.5rem;
+    text-shadow: 4px 3px 10px #fd4372;
+    color: white;
 
 }
 /* .page-header .pageheader-textarea h2{
@@ -3878,7 +3893,7 @@ color: white;
   transform: translateX(-50%);
 }
 .banner-section.style-4 {
-  background: url(../../assets/images/banner/vpn/bg.jpg);
+  background: url(../../assets/images/banner/vpn/bg.webp);
   background-position: center;
   background-size: cover;
 }
@@ -5300,7 +5315,7 @@ color: white;
   padding: 10px 0;
 }
 .about-section.seo-about {
-  /* background-image: url(assets\images\homepage\Medieval-Mountain-Spawn-2.jpg); */
+  /* background-image: url(assets\images\homepage\Medieval-Mountain-Spawn-2.webp); */
   background:#6b041b  ;
 }
 .about-section.seo-about .line.line_1 {
@@ -7723,7 +7738,7 @@ background-color: #f9e4e8;
   -webkit-border-radius: 2px;
   -moz-border-radius: 2px;
   border-radius: 2px;
-  background: url(../../assets/images/erp/manager/author/bg.jpg) no-repeat;
+  background: url(../../assets/images/erp/manager/author/bg.webp) no-repeat;
   background-size: cover;
 }
 @media (min-width: 576px) {
@@ -9674,7 +9689,7 @@ background-color: #f9e4e8;
 
 /*@@@@@@@@@@@@@@   Fore Zero Page Start Here  @@@@@@@@@@@@@@@@@*/
 .fore-zero-page {
-  background: url(../../assets/css/bg-image/404-bg.jpg);
+  background: url(../../assets/css/bg-image/404-bg.webp);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -9726,7 +9741,8 @@ background-color: #f9e4e8;
   }
 }
 .footer-top .footer-item .footer-inner .footer-content .title h6 {
-  font-size: 18px;
+  font-family: 'PressStart2', sans-serif;
+  /* font-size: 18px; */
   color: #000;
 }
 .footer-top .footer-item .footer-inner .footer-content .content p {
