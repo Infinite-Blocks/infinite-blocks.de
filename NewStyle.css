@@ -1,0 +1,45 @@
+.lab-item-3 {
+  width: 515px;
+}
+.text-center {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+.align-items-center {
+  align-items: center;
+  display: flex;
+}
+
+.section-header {
+  margin: 0 auto;
+  width: 50%;
+  display: block;
+}
+
+.section-wrapper {
+  padding: 25px;
+}
+.lab-item-2 {
+  width: 500px;
+}
+.portfolio-section-card {
+  width: 460px;
+}
+.shop-product-items {
+  width: 350px;
+}
+
+.pagination-ul {
+  flex-wrap: wrap;
+  justify-content: center;
+  display: flex;
+}
+
+
+.herosection-heading{
+
+justify-content:center;
+ display: flex"
+}
